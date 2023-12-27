@@ -1,0 +1,23 @@
+{
+  "name": "tanatos",
+  "version": "0.0.0",
+  "description": "tanatos is web framework for node.js",
+  "keywords": [
+    "framework",
+    "http",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nulldark/tanatos.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
