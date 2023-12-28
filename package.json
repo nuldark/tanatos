@@ -19,8 +19,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint:style": "eslint lib --ext .ts",
-    "lint:fix": "prettier lib/**/*.ts --write",
+    "lint:style": "eslint pkg --ext .ts",
+    "lint:fix": "prettier pkg/**/*.ts --write",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
