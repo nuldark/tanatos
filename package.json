@@ -18,9 +18,16 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint:style": "eslint lib --ext .ts",
+    "lint:fix": "prettier lib/**/*.ts --write"
   },
   "devDependencies": {
-    "typescript": "5.4.0-dev.20231227"
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   }
 }
